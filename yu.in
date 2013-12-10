@@ -1,0 +1,57 @@
+file     coord hgsi24/coord
+type cluster
+#    a command which runs QC program, eg here it runs nwchem with input
+#    files 113.nw in both catalogues 
+#    
+#     lr - для первого ряда
+#     xc - для второго и расстояния между атомами
+mode     xc
+#    first symbol: logarithmic sale if <<l>>, linear otherwise
+#    second symbol: if <<r>> and the first one is <<l>>, minimal ratio of 
+#                   two neighbor parameter is given by <<rmin>> line
+#                   if <<c>>, the step for fd gradient calcns is independent 
+#                   on the parameter value
+#    lx (or lr) are recommended for exponent optimization,
+#    xc for weight optimization
+#````````
+init  11 3
+
+#0.00 3.2163 0.00 0.00 0.00 4.548 2.785 4.824 4.548 2.785 4.824 4.548 2.785 4.824 4.548 5.570 0.00 4.548 2.785 4.824 4.548 2.785 1.605 0.00 2.785 1.605 0.00 5.548 3.219 0.00 5.548 3.219 0.00 5.548 0.00 4.548 0.00 6.4285 0.00
+# 5.245134
+
+ #  number of initial values  
+test      ENERGY CONVERGED !
+#  line to be found in the listing to ensure successful termination of
+#  a QC code
+#
+line     ! Total energy 
+#   line containing the answer (can coincide with <<test>>)
+#
+word      4 
+#
+#  position of the answer in the abovementioned line 
+#                          (0 - first, 1-second etc)
+#
+step     0.1
+#  numerical differentiation step
+#
+gtol     0.0007
+
+#  gtadient should converge up to
+#
+maxi     100
+#   maximal number of iterations
+#
+#    one can also indicate
+#
+rmin     1.2
+#     for lr mode, minimum ratio
+# (())   1  12.0
+grad    y
+#tail    hpc2-16g-3d
+tail    hpc2-bigmem-3d
+ncpu   64
+time 100
+scale_opt      n
+scale_init     2.715
+without_energy	n
