@@ -55,7 +55,7 @@ def func(x,*args):
 	new_g = new_g.strip()
 	xx_xx.write(new_g)
 	xx_xx.close()
-	os.system('nrj.pl yu.in')
+	os.system('nrj.pl {}'.format(options.infile))
 	e_file = open('xx.yy')
 	str = e_file.read()
 	e_file.close()
@@ -92,17 +92,18 @@ if grad_mode == 'y':
 	grad = grad_wul
 if grad_mode == 'n':
 	grad = grad_zai
+
 #Broyden-Fletcher-Goldfarb-Shanno optimization routine
 #retval = optimize.fmin_cg(func, x0, grad, maxiter=10, full_output=True, disp=True)
 # Powell (direction set) optimization
-##retval = optimize.fmin_powell(func, x0, maxiter=10, full_output=True, disp=True)
+retval = optimize.fmin_powell(func, x0, maxiter=10, full_output=True, disp=True)
 # Nelder-Mead simplex algorithm
 #retval = optimize.fmin(func, x0, maxiter=10, full_output=True, disp=True)
 #line-search Newton conjugate gradient optimization routine
 ##retval = optimize.fmin_ncg(func, x0, grad, maxiter=10, full_output=True, disp=True)
 # limited-memory bound-constrained BFGS algorithm
 #retval = optimize.fmin_l_bfgs_b(func, x0, grad, maxfun=100)
-retval = optimize.fmin_l_bfgs_b(func, x0, grad, args=(step), maxfun= 10)
+#retval = optimize.fmin_l_bfgs_b(func, x0, grad, args=(step), maxfun= 10)
 (params, fopt, d) = retval
 print '\nMy report:'
 print 'X: ',retval[0]
