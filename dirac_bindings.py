@@ -64,14 +64,3 @@ def transform_input_diatomic(in_stream,dist):
            mol.write(re.sub(r'!dist!',str(dist),line)) #stream must contain !dist! in place of some coordinate (z for example) of some atom
     return '--mol=in.mol'
 
-def test():
-    energy = MakeGetEnergyFunc(dirac_en)
-    rp = MakeRunProgram('pam-dirac --inp=dir.inp',transform_input_diatomic)
-    print "transform_input_diatomic_test"
-    with open('PbO.xyz','r') as inp:
-        rp(inp,2.0)
-    print "en test"
-    with open('dirac_out','r') as out:
-        print energy(out)
-
-test()
