@@ -1,4 +1,4 @@
-DIRAC pam run in /Users/jeral/source/optimiste/optimiste/dirac
+DIRAC pam run in /Users/jeral/source/optimiste/optimiste/dirac_test
 DIRAC serial starts by allocating 64000000 words (488 MB) of memory
 DIRAC serial has no limitations in place for the amount of dynamically allocated memory
 
@@ -538,7 +538,7 @@ Basis "GRECPm" doesn't exist
 
   --- SEVERE ERROR, PROGRAM WILL BE ABORTED ---                       
 
- Date and time (Darwin) : Sun Dec 15 23:37:16 2013
+ Date and time (Darwin) : Mon Dec 16 00:09:07 2013
  Non-existing ECP
 
 
@@ -561,18 +561,18 @@ Basis "GRECPm" doesn't exist
 Program received signal SIGILL: Illegal instruction.
 
 Backtrace for this error:
-#0  0x117d4f70d
-#1  0x117d4fc1b
+#0  0x116f2870d
+#1  0x116f28c1b
 #2  0x7fff972775a9
-#3  0x10df3b4a4
-#4  0x10eaec27a
-#5  0x10e4d022b
-#6  0x10e4d0ae6
-#7  0x10e671af2
-#8  0x10e6807d4
-#9  0x10e682e23
-#10  0x10e6ad8d0
-#11  0x10e213352
-#12  0x10e722268
-#13  0x10def82dd
-#14  0x10efda6fe
+#3  0x10d1124a4
+#4  0x10dcc327a
+#5  0x10d6a722b
+#6  0x10d6a7ae6
+#7  0x10d848af2
+#8  0x10d8577d4
+#9  0x10d859e23
+#10  0x10d8848d0
+#11  0x10d3ea352
+#12  0x10d8f9268
+#13  0x10d0cf2dd
+#14  0x10e1b16fe

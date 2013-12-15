@@ -6,9 +6,11 @@ import re, os
 from numpy import array, array_str
 import copy, math
 
-parser = OptionParser()
+parser = OptionParser() #FIXME with new ArgParser
 parser.add_option("-i", "--in", dest="infile",
                   help="file with paremetres", metavar="FILE")
+parser.add_option("-p", "--program", dest = "program", metavar="PROGRAM",
+                help = "program to run")
 (options, args) = parser.parse_args()
 infile_fh = open(options.infile)
 params = {}
