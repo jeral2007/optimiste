@@ -1,0 +1,1023 @@
+DIRAC pam run in /Users/jeral/source/dirac/Pb
+DIRAC serial starts by allocating 64000000 words (488 MB) of memory
+DIRAC serial has no limitations in place for the amount of dynamically allocated memory
+
+Note: maximum allocatable memory for serial run can be set by pam --aw
+
+ *******************************************************************************
+ *                                                                             *
+ *                                O U T P U T                                  *
+ *                                   from                                      *
+ *                                                                             *
+ *                   @@@@@    @@   @@@@@     @@@@     @@@@@                    *
+ *                   @@  @@        @@  @@   @@  @@   @@                        *
+ *                   @@  @@   @@   @@@@@    @@@@@@   @@                        *
+ *                   @@  @@   @@   @@ @@    @@  @@   @@                        *
+ *                   @@@@@    @@   @@  @@   @@  @@    @@@@@                    *
+ *                                                                             *
+ *                                                                             *
+ %}ZS)S?$=$)]S?$%%>SS$%S$ZZ6cHHMHHHHHHHHMHHM&MHbHH6$L/:<S///</:|/:|:/::!:.::--:%
+ $?S$$%$$$$?%?$(SSS$SSSHMMMMMMMMMMMMMMMMMM6H&6S&SH&&k?6$r~::://///::::::.:::-::$
+ (%?)Z??$$$(S%$>$)S6HMMMMMMMMMMMMMMMMMMMMMMR6M]&&$6HR$&6(i::::::|i|:::::::-:-::(
+ $S?$$)$?$%?))?S/]#MMMMMMMMMMMMMMMMMMMMMMMMMMHM1HRH9R&$$$|):?:/://|:/::/:/.::.:$
+ SS$%%?$%((S)?Z[6MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM&HF$$&/)S?<~::!!:::::::/:-:|.S
+ SS%%%%S$%%%$$MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMHHHHHHM>?/S/:/:::`:/://:/::-::S
+ ?$SSSS?%SS$)MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/4?:S:/:::/:::/:/:::.::?
+ S$(S?S$%(?$HMMMMMMMMMMMMMMMMM#&7RH99MMMMMMMMMMMMMMMMMMHHHd$/:::::/::::::-//.:.S
+ (?SS(%)S&HMMMMMMMMMMMMMMMMM#S|///???$9HHMMMMMMMMMDSZ&1S/?</>?~:///::|/!:/-:-:.(
+ $S?%?<H(MMMMMMMMMMMMMMMMR?`. :.:`::<>:``?/*?##*)$:/>       `((%://::/:::::/::/$
+ S$($$)HdMMMMMMMMMMMMMMMP: . `   `  `    `      `-            `Z<:>?::/:::::|:iS
+ c%%%&HMMMMMMMMMMMMMMMM6:                                      `$%)>%%</>!:::::c
+ S?%/MMMMMMMMMMMMMMMMMMH-                                        /ZSS>?:?~:;/::S
+ $SZ?MMMMMMMMMMMMMMMMMH?.                                        \"&((/?//?|:::$
+ $%$%&MMMMMMMMMMMMMMMMM:.                                          ?%/S:</::/::$
+ ($?}&HMMMMMMMMMMMMMMMM>:                                          $%%<?/i:|i::(
+ Z$($&MMMMMMMMMMMMMMMMHk(:.  . -                                   .S/\?\?/!:/:Z
+ (??$<HMMMMMMMMMMMMMMMFk|:   -.-.                                  :%/%/(:/:ii|(
+ SZ(S?]MMMMMMMMMMMMMMHS?:- -  ::.:                                  |/S:</::?||S
+ $%)$$(MMMMMMMMMMMMMMR):`:. :.:::`,,/bcokb/_                       :S?%?|~:/:/:$
+ %$$%$)[[?$?MMMMMMMMMM: :.:-.::::$7?<&7&MMMMMMM#/           _ .. ..:</?:(:/::::%
+ $$$?Z?HHH~|/MMMMMMMMM/`.-.:.:/:%%%%?dHMMMMMMMMMMH?,-   .,bMMMM6//./i~/~:<:::/:$
+ $($S$M//::S?ZHMMMMMH/:.`:::.:/%S/&MMHMMMMMMMMRM&><   ,HMMMMMMMF  :::?:///:|:::$
+ )[$S$S($|_i:#>::*H&?/::.::/:\"://:?>>`:&HMHSMMMM$:`-   MMHMMMMHHT .)i/?////::/)
+ $$[$$>$}:dHH&$$--?S::-:.:::--/-:``./::>%Zi?)&/?`:.`   `H?$T*\" `  /%?>%:)://ii$
+ $&=&/ZS}$RF<:?/-.|%r/:::/:/:`.-.-..|::S//!`\"``          >??:    `SS<S:)!/////$
+ Z&]>b[Z(Z?&%:::../S$$:>:::i`.`. `-.`  `                         ,>%%%:>/>/!|:/Z
+ $$&/F&1$c$?>:>?/,>?$$ZS/::/:-: ...                              |S?S)S?<~:::::$
+ &$&$&$k&>>|?<:<?((/$[/?)i~/:/. - -                              S?:%%%?/:::/::&
+ =[/Z[[Fp[MMH$>?Z&S$$$/$S///||..-           -.-                  /((S$:%<:///:/=
+ $&>1MHHMMMM6M9MMMM$Z$}$S%/:::.`.            .:/,,,dcb>/:.       ((SSSS%:)!//i|$
+ MMMMMMMMMMMR&&RRRHR&&($(?:|i::-             .:%&S&$[&H&``     ../>%;/?>??:<::>M
+ MMMMMMMMMMMMS/}S$&&H&[$SS//:::.:.   . . .v</Jq1&&D]&M&<,      :/::/?%%)S>?://:M
+ MMMMMMMMMMMM?}$/$$kMM&&$(%/?//:..`.  .|//1d/`://?*/*/\"` `     .:/(SS$%(S%)):%M
+ MMMMMMMMMMMM(}$$>&&MMHR#$S%%:?::.:|-.`:;&&b/D/$p=qpv//b/~`   :/~~%%??$=$)Z$S+;M
+ MMMMMMMMMMMM[|S$$Z1]MMMMD[$?$:>)/::: :/?:``???bD&{b<<-`     .,:/)|SS(}Z/$$?/<SM
+ MMMMMMMMMMMM||$)&7k&MMMMH9]$$??Z%|!/:i::`  `` .             SS?SS?Z/]1$/&$c/$SM
+ MMMMMMMMMMMM| -?>[&]HMMMMMMMH1[/7SS(?:/..-` ::/Sc,/_,     _<$?SS%$S/&c&&$&>//<M
+ MMMMMMMMMMMMR  `$&&&HMM9MMMMMMM&&c$%%:/:/:.:.:/\?\?/\    _MMHk/7S/]dq&1S<&&></M
+ MMMMMMMMMMMMM?  :&96MHMMMMMMMMMMMHHk[S%(<<:// `         ,MMMMMMM&/Z6H]DkH]1$&&M
+ MMMMMMMMMMMMMD    99H9HMMMMMMMMMMMMMMMb&%$<:i.:....    .MMMMMMMMM6HHHRH&H&H1SFM
+ MMMMMMMMMMMMMM|   `?HMMMMMMMMMMMMMMMMMMMHk6k&>$&Z$/?_.bHMMMMMMMMMMM&6HRM9H6]ZkM
+ MMMMMMMMMMMMMMM/    `TMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMHMH6RH&R6&M
+ MMMMMMMMMMMMMMMM    -|?HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMFHH6HMD&&M
+ MMMMMMMMMMMMMMMMk  ..:~?9MMMMMMMMMMMMM#`:MMMMMMMMMMMMMMMMMMMMMMMMMMMMM9MHkR6&FM
+ MMMMMMMMMMMMMMMMM/  .-!:%$ZHMMMMMMMMMR` dMMMMMMMMMMMMMMMMMMMMMMMMMMMMM9MRMHH9&M
+ MMMMMMMMMMMMMMMMMML,:.-|::/?&&MMMMMM` .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMHRMH&&6M
+ MMMMMMMMMMMMMMMMMMMc%>/:::i<:SMMMMMMHdMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMHHM&969kM
+ MMMMMMMMMMMMMMMMMMMMSS/$$/(|HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMHH&HH&M
+ MMMMMMMMMMMMMMMMMMMM6S/?/MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMR96H1DR1M
+ MMMMMMMMMMMMMMMMMMMMM&$MHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMHMH691&&M
+ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMH&R&9ZM
+ MMMMMMMMMMMMMMMMMMMMMMMMMRHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMH&96][6M
+ MMMMMMMMMMMMMMMMMMMMMMMMp?:MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM96HH1][FM
+ MMMMMMMMMMMMMMMMMMMMMMMM> -HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMH&1k&$&M
+ *******************************************************************************
+ *                                                                             *
+ *         =========================================================           *
+ *                     Program for Atomic and Molecular                        *
+ *          Direct Iterative Relativistic All-electron Calculations            *
+ *         =========================================================           *
+ *                                                                             *
+ *                                                                             *
+ *    Written by:                                                              *
+ *                                                                             *
+ *    Hans Joergen Aa. Jensen  University of Southern Denmark    Denmark       *
+ *    Radovan Bast             Universite P. Sabatier, Toulouse  France        *
+ *    Trond Saue               Universite P. Sabatier, Toulouse  France        *
+ *    Lucas Visscher           VU University Amsterdam           Netherlands   *
+ *                                                                             *
+ *    with contributions from:                                                 *
+ *                                                                             *
+ *    Vebjoern Bakken          University of Oslo                Norway        *
+ *    Kenneth G. Dyall         Schrodinger, Inc., Portland       USA           *
+ *    Sebastien Dubillard      University of Strasbourg          France        *
+ *    Ulf Ekstroem             University of Oslo                Norway        *
+ *    Ephraim Eliav            University of Tel Aviv            Israel        *
+ *    Thomas Enevoldsen        University of Southern Denmark    Denmark       *
+ *    Timo Fleig               Universite P. Sabatier, Toulouse  France        *
+ *    Olav Fossgaard           University of Tromsoe             Norway        *
+ *    Andre S. P. Gomes        CNRS/Universite Lille 1           France        *
+ *    Trygve Helgaker          University of Oslo                Norway        *
+ *    Jon K. Laerdahl          University of Oslo                Norway        *
+ *    Johan Henriksson         Linkoeping University             Sweden        *
+ *    Miroslav Ilias           Matej Bel University              Slovakia      *
+ *    Christoph R. Jacob       Karlsruhe Institute of Technology Germany       *
+ *    Stefan Knecht            University of Southern Denmark    Denmark       *
+ *    Stanislav Komorovsky     University of Tromsoe             Norway        *
+ *    Ossama Kullie            University of Kassel              Germany       *
+ *    Christoffer V. Larsen    University of Southern Denmark    Denmark       *
+ *    Yoon Sup Lee             KAIST, Daejeon                    South Korea   *
+ *    Huliyar S. Nataraj       BME/Budapest Univ. Tech. & Econ.  Hungary       *
+ *    Patrick Norman           Linkoeping University             Sweden        *
+ *    Malgorzata Olejniczak    University of Warsaw              Poland        *
+ *    Jeppe Olsen              Aarhus University                 Denmark       *
+ *    Young Choon Park         KAIST, Daejeon                    South Korea   *
+ *    Jesper K. Pedersen       University of Southern Denmark    Denmark       *
+ *    Markus Pernpointner      University of Heidelberg          Germany       *
+ *    Kenneth Ruud             University of Tromsoe             Norway        *
+ *    Pawel Salek              Stockholm Inst. of Technology     Sweden        *
+ *    Bernd Schimmelpfennig    Forschungszentrum Karlsruhe       Germany       *
+ *    Jetze Sikkema            VU University Amsterdam           Netherlands   *
+ *    Andreas J. Thorvaldsen   University of Tromsoe             Norway        *
+ *    Joern Thyssen            University of Southern Denmark    Denmark       *
+ *    Joost van Stralen        VU University Amsterdam           Netherlands   *
+ *    Sebastien Villaume       Linkoeping University             Sweden        *
+ *    Olivier Visser           University of Groningen           Netherlands   *
+ *    Toke Winther             University of Southern Denmark    Denmark       *
+ *    Shigeyoshi Yamamoto      Chukyo University                 Japan         *
+ *                                                                             *
+ *    For the complete list of contributors to the DIRAC code see our          *
+ *    website http://www.diracprogram.org                                      *
+ *                                                                             *
+ *    This is an experimental code. The authors accept no responsibility       *
+ *    for the performance of the code or for the correctness of the results.   *
+ *                                                                             *
+ *    The code (in whole or part) is not to be reproduced for further          *
+ *    distribution without the written permission of the authors or            *
+ *    their representatives.                                                   *
+ *                                                                             *
+ *    If results obtained with this code are published, an                     *
+ *    appropriate citation would be:                                           *
+ *                                                                             *
+ *    DIRAC, a relativistic ab initio electronic structure program,            *
+ *    Release DIRAC12 (2012),                                                  *
+ *    written by H. J. Aa. Jensen, R. Bast, T. Saue, and L. Visscher,          *
+ *    with contributions from V. Bakken, K. G. Dyall, S. Dubillard,            *
+ *    U. Ekstroem, E. Eliav, T. Enevoldsen, T. Fleig, O. Fossgaard,            *
+ *    A. S. P. Gomes, T. Helgaker, J. K. Laerdahl, Y. S. Lee, J. Henriksson,   *
+ *    M. Ilias, Ch. R. Jacob, S. Knecht, S. Komorovsky, O. Kullie,             *
+ *    C. V. Larsen, H. S. Nataraj, P. Norman, G. Olejniczak, J. Olsen,         *
+ *    Y. C. Park, J. K. Pedersen, M. Pernpointner, K. Ruud, P. Salek,          *
+ *    B. Schimmelpfennig, J. Sikkema, A. J. Thorvaldsen, J. Thyssen,           *
+ *    J. van Stralen, S. Villaume, O. Visser, T. Winther, and S. Yamamoto      *
+ *    (see http://www.diracprogram.org).                                       *
+ *                                                                             *
+ *******************************************************************************
+
+
+Binary information
+------------------
+
+ Who compiled             | jeral@Mac-mini-Yuriy-4.local
+ System                   | Darwin-12.4.0
+ CMake generator          | Unix Makefiles
+ Processor                | i386
+ 64-bit integers          | OFF
+ MPI                      | OFF
+ Fortran compiler         | /opt/local/bin/gfortran
+ Fortran compiler version | GNU Fortran (MacPorts gcc47 4.7.3_0) 4.7.3
+ Fortran flags            | -g -fcray-pointer -fbacktrace -DVAR_GFORTRAN -DVAR
+                          | _MFDS -fno-range-check -O3 -funroll-all-loops -w
+ C compiler               | /usr/bin/gcc
+ C compiler version       | i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Base
+                          | d on Apple Inc. build 5658) (LLVM build 2336.11.00
+                          | )
+ C flags                  | -g -O2 -Wno-unused
+ C++ compiler             | /usr/bin/g++
+ C++ compiler version     | i686-apple-darwin11-llvm-g++-4.2 (GCC) 4.2.1 (Base
+                          | d on Apple Inc. build 5658) (LLVM build 2336.11.00
+                          | )
+ C++ flags                | -g -Wall -Wno-unknown-pragmas -Wno-sign-compare -W
+                          | overloaded-virtual -Wwrite-strings -Wno-unused -Of
+                          | ast -march=native -DNDEBUG -Wno-unused
+ BLAS                     | /opt/local/lib/libf77blas.a;/usr/lib/libcblas.dyli
+                          | b;/usr/lib/libatlas.dylib
+ LAPACK                   | /usr/lib/libatlas.dylib;/usr/lib/liblapack.dylib
+ Static linking           | OFF
+ Last Git revision        | 94f948ef79b41104562fcd78fa1d30e5905bd565
+ Configuration time       | 2013-08-27 14:31:44.541992
+
+
+Execution time and host
+-----------------------
+
+ 
+
+
+Contents of the input file
+--------------------------
+
+**DIRAC                                                                                             
+.TITLE                                                                                              
+ Pb atom                                                                                            
+.WAVE F                                                                                             
+**HAMILTONIAN                                                                                       
+.ECP                                                                                                
+**WAVE FUNCTION                                                                                     
+.SCF                                                                                                
+*END OF DIRAC                                                                                       
+
+
+Contents of the molecule file
+-----------------------------
+
+Pb atom                                                                                             
+                                                                                                    
+                                                                                                    
+C   1   0                                                                                           
+       82.    1                                                                                     
+Pb 0.0 0.0 0.0                                                                                      
+LARGE 4    2    1    1    1                                                                         
+#s1                                                                                                 
+f   3    0    0                                                                                     
+  7.286                                                                                             
+  6.020                                                                                             
+  1.976                                                                                             
+#s2                                                                                                 
+f   5    0    0                                                                                     
+  0.8908                                                                                            
+  0.3008                                                                                            
+  0.1499                                                                                            
+  0.06432                                                                                           
+  0.02500                                                                                           
+#p                                                                                                  
+f   7    0    0                                                                                     
+  6.038                                                                                             
+  5.249                                                                                             
+  2.267                                                                                             
+  0.9122                                                                                            
+  0.3440                                                                                            
+  0.1212                                                                                            
+  0.0440                                                                                            
+#d                                                                                                  
+f   6    0    0                                                                                     
+  8.032                                                                                             
+  1.900                                                                                             
+  0.8281                                                                                            
+  0.3489                                                                                            
+  0.1347                                                                                            
+  0.050                                                                                             
+#f                                                                                                  
+f   2    0    0                                                                                     
+  0.725                                                                                             
+  0.290                                                                                             
+ECP 60 5 4                                                                                          
+# AREP                                                                                              
+#g                                                                                                  
+13                                                                                                  
+  1      6468.157891       -2.261344                                                                
+  1       691.231174       -1.901977                                                                
+  1       225.660493      -21.857218                                                                
+  1       156.576087       44.872084                                                                
+  1        96.820427      -35.305267                                                                
+  1        60.073806        3.747546                                                                
+  1        39.026084       -4.454106                                                                
+  1        16.213710       -8.744488                                                                
+  1         9.602964      -12.379044                                                                
+  1         3.890563       -3.119539                                                                
+  1         0.396324        0.926110                                                                
+  1         0.118985        0.573040                                                                
+  0         0.965552       -0.161063                                                                
+#s-g                                                                                                
+15                                                                                                  
+  0        96.586454       10.161063                                                                
+  1        33.006877       37.938171                                                                
+  2        49.034436     1286.906703                                                                
+  2        32.510061    -1675.940655                                                                
+  2        20.502225     2024.943662                                                                
+  2        12.892605    -1485.581780                                                                
+  2         7.919955     1003.513333                                                                
+  2         4.819389     -356.100929                                                                
+  2         3.009188      136.380872                                                                
+  2         1.857822      -51.071784                                                                
+  2         1.146241       19.616779                                                                
+  2         0.716029       -7.358011                                                                
+  2         0.450595        2.339310                                                                
+  2         0.283155       -0.539623                                                                
+  2         0.176614        0.066023                                                                
+#p-g                                                                                                
+15                                                                                                  
+  1        27.869475       20.534349                                                                
+  1         2.618015       22.715182                                                                
+  2        17.506883     -323.314251                                                                
+  2        12.281623      848.763531                                                                
+  2         8.488850    -1242.621686                                                                
+  2         6.085204     1179.176715                                                                
+  2         4.394890     -558.669285                                                                
+  2         2.961572      119.356258                                                                
+  2         1.842550      -33.585402                                                                
+  2         1.117288        8.807965                                                                
+  2         0.678548       -2.665560                                                                
+  2         0.417334        0.779186                                                                
+  2         0.259474       -0.178342                                                                
+  2         0.160090        0.021791                                                                
+  0         8.506863        9.161063                                                                
+#d-g                                                                                                
+27                                                                                                  
+  0       100.525546        7.161063                                                                
+  1       140.711982      -29.989017                                                                
+  1        53.277903       96.338085                                                                
+  1        10.428146      -19.633087                                                                
+  2        24.639462      348.589844                                                                
+  2         9.693881      202.205544                                                                
+  2         6.242244      -63.946508                                                                
+  2         3.756153      109.210748                                                                
+  2         2.712683      -55.405288                                                                
+  2         1.848501       12.696131                                                                
+  2         1.069550       -1.592879                                                                
+  2         0.663611        0.248623                                                                
+  2         0.265525       -0.107349                                                                
+  2         0.876761        0.907849                                                                
+  2         0.373502       -0.112980                                                                
+  1        16.907039        2.036684                                                                
+  2        12.106667      -43.333547                                                                
+  2         8.646800       71.964119                                                                
+  2         6.052643      -55.584105                                                                
+  2         4.036047       21.072678                                                                
+  2         2.809417       -2.502292                                                                
+  2         1.974927       -2.879003                                                                
+  2         1.333916        2.078453                                                                
+  2         0.790778       -0.752553                                                                
+  2         0.411588        0.250570                                                                
+  2         0.197643       -0.087545                                                                
+  2         0.100959        0.021635                                                                
+#f-g                                                                                                
+13                                                                                                  
+  1        14.007411       53.256344                                                                
+  2        22.229810      -72.020304                                                                
+  2        14.628412      -26.290479                                                                
+  2         8.390525      104.398142                                                                
+  2         4.945509     -136.716489                                                                
+  2         3.442815      294.512204                                                                
+  2         2.443012     -286.109461                                                                
+  2         1.704564      182.162601                                                                
+  2         0.961102      -51.307307                                                                
+  2         0.542519       13.218464                                                                
+  2         0.343340       -3.342941                                                                
+  2         0.231934        0.460667                                                                
+  0        22.232707        4.161063                                                                
+# spin-orbit                                                                                        
+#p-SpinOrbit                                                                                        
+14                                                                                                  
+  1        27.869475        4.518775                                                                
+  1         2.618015       -4.330688                                                                
+  2        17.506883     -100.448309                                                                
+  2        12.281623      236.394592                                                                
+  2         8.488850     -209.997280                                                                
+  2         6.085204       33.223629                                                                
+  2         4.394890       87.950640                                                                
+  2         2.961572      -46.677043                                                                
+  2         1.842550       18.272377                                                                
+  2         1.117288       -6.191101                                                                
+  2         0.678548        2.140448                                                                
+  2         0.417334       -0.677551                                                                
+  2         0.259474        0.161703                                                                
+  2         0.160090       -0.020134                                                                
+#d-SpinOrbit                                                                                        
+14                                                                                                  
+  1       140.711982       -0.148138                                                                
+  1        53.277903        0.185454                                                                
+  1        10.428146        0.020593                                                                
+  2        24.639462       -1.867054                                                                
+  2         9.693881        5.512039                                                                
+  2         6.242244       -7.583513                                                                
+  2         3.756153        3.337769                                                                
+  2         2.712683        1.280151                                                                
+  2         1.848501       -1.283490                                                                
+  2         1.069550        0.352484                                                                
+  2         0.663611       -0.075647                                                                
+  2         0.265525        0.004297                                                                
+  2         0.087676       -0.000395                                                                
+  2         0.037350        0.000052                                                                
+#f-SpinOrbit                                                                                        
+12                                                                                                  
+  1        14.007411        0.001311                                                                
+  2        22.229810        0.164277                                                                
+  2        14.628412       -0.347646                                                                
+  2         8.390525        0.492433                                                                
+  2         4.945509       -0.326382                                                                
+  2         3.442815        0.047256                                                                
+  2         2.443012        0.058693                                                                
+  2         1.704564       -0.208115                                                                
+  2         0.961102        0.163535                                                                
+  2         0.542519       -0.052424                                                                
+  2         0.343340        0.014210                                                                
+  2         0.231934       -0.001956                                                                
+#g-SpinOrbit                                                                                        
+12                                                                                                  
+  1      6468.157891       -1.295638                                                                
+  1       691.231174       -3.027502                                                                
+  1       156.576087      -25.195379                                                                
+  1       225.660493       10.329041                                                                
+  1        96.820427       16.736744                                                                
+  1        60.073806       -7.060396                                                                
+  1        39.026084        2.193300                                                                
+  1        16.213710       -0.199719                                                                
+  1         9.602964        0.085334                                                                
+  1         3.890563       -0.010629                                                                
+  1         0.396324       -0.000341                                                                
+  1         0.118985        0.000252                                                                
+FINISH                                                                                              
+
+
+    **************************************************************************
+    ********************************  Pb atom ********************************
+    **************************************************************************
+
+ Jobs in this run:
+   * Wave function
+
+
+    **************************************************************************
+    ************************** General DIRAC set-up **************************
+    **************************************************************************
+
+   CODATA Recommended Values of the Fundamental Physical Constants: 1998  
+                Peter J. Mohr and Barry N. Taylor                         
+   Journal of Physical and Chemical Reference Data, Vol. 28, No. 6, 1999  
+ * The speed of light :        137.0359998
+ * Running in two-component mode
+ * Direct evaluation of the following two-electron integrals:
+   - LL-integrals
+ * Spherical transformation embedded in MO-transformation
+   for large components
+ * Transformation to scalar RKB basis embedded in
+   MO-transformation for small components
+ * Thresholds for linear dependence:
+   Large components:   1.00D-06
+   Small components:   1.00D-08
+ * General print level   :   0
+
+
+    *************************************************************************
+    ****************** Output from HERMIT input processing ******************
+    *************************************************************************
+
+
+
+    *************************************************************************
+    ****************** Output from READIN input processing ******************
+    *************************************************************************
+
+
+
+  Title Cards
+  -----------
+
+                                                                          
+                                                                          
+
+  Nuclear Gaussian exponent for atom of charge  82.000 :    1.3768840081D+08
+  * This atomic center has RECP with  60 core electrons.
+    The charge value is changed as  22.000
+
+
+                          SYMGRP:Point group information
+                          ------------------------------
+
+Point group: C1 
+
+   * Character table
+
+        |  E 
+   -----+-----
+    A   |   1
+
+   * Direct product table
+
+        | A  
+   -----+-----
+    A   | A  
+
+
+                            **************************
+                            *** Output from DBLGRP ***
+                            **************************
+
+   * One fermion irrep:   E1 
+   * Quaternionic group. NZ = 4
+   * Direct product decomposition:
+          E1  x E1  : A   + A   + A   + A  
+
+
+                                 Spinor structure
+                                 ----------------
+
+
+   * Fermion irrep no.: 1
+      La  |  A  (1)  A  (1)  |
+      Sa  |  A  (1)  A  (1)  |
+      Lb  |  A  (1)  A  (1)  |
+      Sb  |  A  (1)  A  (1)  |
+
+
+                              Quaternion symmetries
+                              ---------------------
+
+    Rep  T(+)
+    -----------------------------
+    A    1  i  j  k
+
+  QM-QM nuclear repulsion energy :      0.000000000000
+
+
+
+  Atoms and basis sets
+  --------------------
+
+  Number of atom types:     1
+  Total number of atoms:    1
+
+  label    atoms   charge   prim    cont     basis   
+  ----------------------------------------------------------------------
+  Pb 0        1      22      85      85      L  - [8s7p6d2f|8s7p6d2f]                                            
+                              0       0      S  - No small component basis functions attached                    
+  ----------------------------------------------------------------------
+                             85      85      L  - large components
+                              0       0      S  - small components
+  ----------------------------------------------------------------------
+  total:      1      22      85      85
+
+  Cartesian basis used.
+  Threshold for integrals (to be written to file):  1.00D-15
+
+
+  References for the basis sets
+  -----------------------------
+
+  Atom type   1
+  Basis set typed explicitly in input file                                        
+
+
+  Cartesian Coordinates
+  ---------------------
+
+  Total number of coordinates:  3
+
+
+   1   Pb 0     x      0.0000000000
+   2            y      0.0000000000
+   3            z      0.0000000000
+
+
+
+  Cartesian coordinates xyz format (angstrom)
+  -------------------------------------------
+
+    1
+
+Pb 0   0.0000000000   0.0000000000   0.0000000000
+  Nuclear repulsion energy :    0.000000000000
+
+
+                                GETLAB: AO-labels
+                                -----------------
+
+   * Large components:   20
+     1  L Pb  1 s        2  L Pb  1 px       3  L Pb  1 py       4  L Pb  1 pz       5  L Pb  1 dxx      6  L Pb  1 dxy 
+     7  L Pb  1 dxz      8  L Pb  1 dyy      9  L Pb  1 dyz     10  L Pb  1 dzz     11  L Pb  1 fxxx    12  L Pb  1 fxxy
+    13  L Pb  1 fxxz    14  L Pb  1 fxyy    15  L Pb  1 fxyz    16  L Pb  1 fxzz    17  L Pb  1 fyyy    18  L Pb  1 fyyz
+    19  L Pb  1 fyzz    20  L Pb  1 fzzz
+   * Small components:    0
+
+
+
+  Symmetry Orbitals
+  -----------------
+
+  Number of orbitals in each symmetry:           85
+  Number of large orbitals in each symmetry:     85
+  Number of small orbitals in each symmetry:      0
+
+* Large component functions
+
+  Symmetry  A  ( 1)
+
+        8 functions:    Pb s   
+        7 functions:    Pb px  
+        7 functions:    Pb py  
+        7 functions:    Pb pz  
+        6 functions:    Pb dxx 
+        6 functions:    Pb dxy 
+        6 functions:    Pb dxz 
+        6 functions:    Pb dyy 
+        6 functions:    Pb dyz 
+        6 functions:    Pb dzz 
+        2 functions:    Pb fxxx
+        2 functions:    Pb fxxy
+        2 functions:    Pb fxxz
+        2 functions:    Pb fxyy
+        2 functions:    Pb fxyz
+        2 functions:    Pb fxzz
+        2 functions:    Pb fyyy
+        2 functions:    Pb fyyz
+        2 functions:    Pb fyzz
+        2 functions:    Pb fzzz
+
+
+   ***************************************************************************
+   *************************** Hamiltonian defined ***************************
+   ***************************************************************************
+
+ * Print level:    0
+   employing effective-core-potentials (ECP)
+ * SS integrals neglected:
+   Interatomic Coulombic SS-contributions modelled by
+   classical repulsion of small component atomic charges
+   using tabulated charges.
+ * Default integral flags passed to all modules
+   - LL-integrals:     1
+   - LS-integrals:     0
+   - SS-integrals:     0
+   - GT-integrals:     0
+ * Basis set:
+   - uncontracted large component basis set
+
+
+    **************************************************************************
+    ************************** Wave function module **************************
+    **************************************************************************
+
+ Jobs in this run (in execution order):
+ * Hartree-Fock calculation
+
+ * Initial Automatic occupation based on:
+   Total charge of atoms =  22
+   Charge of molecule    =   0
+   i.e. no. of electrons =  22
+===========================================================================
+ SCFINP: Set-up for Hartree-Fock calculation:
+===========================================================================
+ * Number of fermion irreps: 1
+ * Closed shell SCF calculation with    22 electrons in   11 orbitals.
+ * Bare nucleus screening correction used for start guess
+ * General print level   :   0
+ ***** INITIAL TRIAL SCF FUNCTION *****
+ * Trial vectors read from file DFCOEF
+ ***** SCF CONVERGENCE CRITERIA *****
+ * Convergence on norm of error vector (gradient).
+   Desired convergence:1.000D-07
+   Allowed convergence:1.000D-06
+
+ ***** CONVERGENCE CONTROL *****
+ * Fock matrix constructed using differential density matrix
+    with optimal parameter.
+ * DIIS (in MO basis)
+ * DIIS will be activated when convergence reaches : 1.00D+20
+   - Maximum size of B-matrix:   10
+ * Damping of Fock matrix when DIIS is not activated. 
+   Weight of old matrix    : 0.250
+ * Maximum number of SCF iterations  :   50
+ * No quadratic convergent Hartree-Fock
+ * Contributions from 2-electron integrals to Fock matrix:
+   LL-integrals.
+    ---> this is default setting from Hamiltonian input
+ ***** OUTPUT CONTROL *****
+ * Only electron eigenvalues written out.
+
+
+ ********************************************************************************
+ *************************** Input consistency checks ***************************
+ ********************************************************************************
+
+
+
+    *************************************************************************
+    ************************ End of input processing ************************
+    *************************************************************************
+
+
+
+    *************************************************************************
+    ************************** RECP integral start **************************
+    *************************************************************************
+
+
+
+          -----------------------------------------------------------
+          Relativistic Effective Core Potential Integral routine
+          This routine is based on ARGOS integral
+          with the permission of R. M. Pitzer (Ohio State University)
+          and maintained by Y. S. Lee and Y. C. Park (KAIST)
+          
+          Electronic mail:
+          YoonSupLee@kaist.ac.kr
+          youngc@kaist.ac.kr
+          
+          Reference:
+          Bull.Korean.Chem.Soc. v.33, p.803 (2012)
+          -----------------------------------------------------------
+
+
+
+ * Nuc. Center No.     :   1 (Pb )
+   Sym. distinct atoms :   1
+   Core electrons      :  60
+   AREP blocks         :   5
+   SO blocks           :   4
+
+ * VCORE was generated : RECP_INT_C
+ * SOX was generated   : RECP_INT_X
+ * SOY was generated   : RECP_INT_Y
+ * SOZ was generated   : RECP_INT_Z
+
+
+     ***********************************************************************
+     ************************** RECP integral end **************************
+     ***********************************************************************
+
+
+
+                      Nuclear contribution to dipole moments
+                      --------------------------------------
+
+                               au             Debye
+
+                    x      0.00000000      0.00000000
+                    y      0.00000000      0.00000000
+                    z      0.00000000      0.00000000
+
+                        1 Debye =   2.54177000 a.u. 
+
+
+                       Generating Lowdin canonical matrix:
+                       -----------------------------------
+
+   L   A     * Deleted:         12(Proj:         12, Lindep:          0)
+
+
+      **********************************************************************
+      ************************* Orbital dimensions *************************
+      **********************************************************************
+
+No. of positive energy orbitals (NESH):    73
+No. of negative energy orbitals (NPSH):     0
+Total no. of orbitals           (NORB):    73
+
+
+   ****************************************************************************
+   ************************* Hartree-Fock calculation *************************
+   ****************************************************************************
+
+
+*** INFO *** No trial vectors found. Using bare nucleus approximation for initial trial vectors.
+             Improved by an estimate of the electronic screening (Slater's rules).
+
+
+########## START ITERATION NO.   1 ##########                           
+
+
+=> Calculating sum of orbital energies
+It.    1     1.399716064529      0.00D+00  0.00D+00  0.00D+00               0.01194200s   Scr. nuclei              
+
+########## START ITERATION NO.   2 ##########                           
+
+
+* GETGAB: label "GABAO1XX" not found; calling GABGEN.
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   13.44%   65.68%   15.23%    8.42%   0.05944500s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.15379401s
+
+########## END ITERATION NO.   2 ##########                           
+
+It.    2    -80.99992979648      8.24D+01 -2.14D+01  1.40D+01               0.15379401s   LL                       
+
+########## START ITERATION NO.   3 ##########                           
+
+    3 *** Differential density matrix. DCOVLP     = 0.1081
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   16.17%   62.37%   16.16%    9.25%   0.04985598s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.12859401s
+
+########## END ITERATION NO.   3 ##########                           
+
+It.    3    -148.8485091777      6.78D+01  1.42D+01  1.46D+01   DIIS   2    0.12859401s   LL                       
+
+########## START ITERATION NO.   4 ##########                           
+
+    4 *** Differential density matrix. DCOVLP     = 0.4066
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   16.67%   61.77%   16.32%    9.41%   0.06882900s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.14135998s
+
+########## END ITERATION NO.   4 ##########                           
+
+It.    4    -166.6690181729      1.78D+01 -1.84D+00  6.13D+00   DIIS   3    0.14135998s   LL                       
+
+########## START ITERATION NO.   5 ##########                           
+
+    5 *** Differential density matrix. DCOVLP     = 0.5322
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   16.95%   61.38%   16.43%    9.48%   0.05063599s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.12402397s
+
+########## END ITERATION NO.   5 ##########                           
+
+It.    5    -171.9748941881      5.31D+00 -1.72D+00  6.68D-01   DIIS   4    0.12402397s   LL                       
+
+########## START ITERATION NO.   6 ##########                           
+
+    6 *** Differential density matrix. DCOVLP     = 0.9429
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   16.95%   61.38%   16.43%    9.48%   0.04896396s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.12203598s
+
+########## END ITERATION NO.   6 ##########                           
+
+It.    6    -172.1345591312      1.60D-01 -3.55D-01  1.77D-01   DIIS   5    0.12203598s   LL                       
+
+########## START ITERATION NO.   7 ##########                           
+
+    7 *** Differential density matrix. DCOVLP     = 1.0005
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   17.43%   60.73%   16.61%    9.58%   0.05155897s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.12895596s
+
+########## END ITERATION NO.   7 ##########                           
+
+It.    7    -172.1422980633      7.74D-03  3.92D-02  3.50D-02   DIIS   6    0.12895596s   LL                       
+
+########## START ITERATION NO.   8 ##########                           
+
+    8 *** Differential density matrix. DCOVLP     = 0.9954
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   17.43%   60.73%   16.61%    9.58%   0.05223000s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.12282294s
+
+########## END ITERATION NO.   8 ##########                           
+
+It.    8    -172.1431383917      8.40D-04 -5.65D-03  1.20D-02   DIIS   7    0.12282294s   LL                       
+
+########## START ITERATION NO.   9 ##########                           
+
+    9 *** Differential density matrix. DCOVLP     = 0.9985
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   17.43%   60.73%   16.61%    9.58%   0.04857409s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.12777293s
+
+########## END ITERATION NO.   9 ##########                           
+
+It.    9    -172.1432025522      6.42D-05 -4.55D-03  1.60D-03   DIIS   8    0.12777293s   LL                       
+
+########## START ITERATION NO.  10 ##########                           
+
+   10 *** Differential density matrix. DCOVLP     = 1.0001
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   17.43%   60.73%   16.61%    9.58%   0.05134702s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.12121999s
+
+########## END ITERATION NO.  10 ##########                           
+
+It.   10    -172.1432038767      1.32D-06  2.86D-04  1.79D-04   DIIS   9    0.12121999s   LL                       
+
+########## START ITERATION NO.  11 ##########                           
+
+   11 *** Differential density matrix. DCOVLP     = 1.0000
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   17.43%   60.73%   16.61%    9.58%   0.05402601s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.13162196s
+
+########## END ITERATION NO.  11 ##########                           
+
+It.   11    -172.1432039092      3.25D-08 -3.79D-05  1.81D-05   DIIS   9    0.13162196s   LL                       
+
+########## START ITERATION NO.  12 ##########                           
+
+   12 *** Differential density matrix. DCOVLP     = 1.0000
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   17.43%   60.75%   16.61%    9.58%   0.04898500s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.12754500s
+
+########## END ITERATION NO.  12 ##########                           
+
+It.   12    -172.1432039094      2.74D-10 -2.46D-06  1.13D-06   DIIS   9    0.12754500s   LL                       
+
+########## START ITERATION NO.  13 ##########                           
+
+   13 *** Differential density matrix. DCOVLP     = 1.0000
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   17.43%   61.09%   16.54%    9.52%   0.04913497s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.12982309s
+
+########## END ITERATION NO.  13 ##########                           
+
+It.   13    -172.1432039094      9.38D-13  3.95D-07  1.02D-07   DIIS   9    0.12982309s   LL                       
+
+########## START ITERATION NO.  14 ##########                           
+
+   14 *** Differential density matrix. DCOVLP     = 1.0000
+SCR        scr.thr.    Step1    Step2  Coulomb  Exchange    CPU-time
+SOfock:LL  1.00D-12   17.43%   62.98%   15.79%    9.19%   0.05026996s
+>>> Total wall time: 0.00000000s
+>>> Total CPU time : 0.11812496s
+
+########## END ITERATION NO.  14 ##########                           
+
+It.   14    -172.1432039094      6.79D-12 -9.15D-09  9.70D-09   DIIS   9    0.11812496s   LL                       
+
+
+                                   SCF - CYCLE
+                                   -----------
+
+* Convergence on norm of error vector (gradient).
+  Desired convergence:1.000D-07
+  Allowed convergence:1.000D-06
+
+* ERGVAL - convergence in total energy
+* FCKVAL - convergence in maximum change in total Fock matrix
+* EVCVAL - convergence in error vector (gradient)
+--------------------------------------------------------------------------------------------------------------------------------
+           Energy               ERGVAL    FCKVAL    EVCVAL      Conv.acc    CPU          Integrals   Time stamp
+--------------------------------------------------------------------------------------------------------------------------------
+It.    1     1.399716064529      0.00D+00  0.00D+00  0.00D+00               0.01194200s   Scr. nuclei              
+It.    2    -80.99992979648      8.24D+01 -2.14D+01  1.40D+01               0.15379401s   LL                       
+It.    3    -148.8485091777      6.78D+01  1.42D+01  1.46D+01   DIIS   2    0.12859401s   LL                       
+It.    4    -166.6690181729      1.78D+01 -1.84D+00  6.13D+00   DIIS   3    0.14135998s   LL                       
+It.    5    -171.9748941881      5.31D+00 -1.72D+00  6.68D-01   DIIS   4    0.12402397s   LL                       
+It.    6    -172.1345591312      1.60D-01 -3.55D-01  1.77D-01   DIIS   5    0.12203598s   LL                       
+It.    7    -172.1422980633      7.74D-03  3.92D-02  3.50D-02   DIIS   6    0.12895596s   LL                       
+It.    8    -172.1431383917      8.40D-04 -5.65D-03  1.20D-02   DIIS   7    0.12282294s   LL                       
+It.    9    -172.1432025522      6.42D-05 -4.55D-03  1.60D-03   DIIS   8    0.12777293s   LL                       
+It.   10    -172.1432038767      1.32D-06  2.86D-04  1.79D-04   DIIS   9    0.12121999s   LL                       
+It.   11    -172.1432039092      3.25D-08 -3.79D-05  1.81D-05   DIIS   9    0.13162196s   LL                       
+It.   12    -172.1432039094      2.74D-10 -2.46D-06  1.13D-06   DIIS   9    0.12754500s   LL                       
+It.   13    -172.1432039094      9.38D-13  3.95D-07  1.02D-07   DIIS   9    0.12982309s   LL                       
+It.   14    -172.1432039094      6.79D-12 -9.15D-09  9.70D-09   DIIS   9    0.11812496s   LL                       
+--------------------------------------------------------------------------------------------------------------------------------
+* Convergence after   14 iterations.
+* Average elapsed time per iteration: 
+      No 2-ints    :    0.00000000s
+      LL           :    0.00000000s
+
+
+                                   TOTAL ENERGY
+                                   ------------
+
+   Electronic energy                        :    -172.14320390944044
+
+   Other contributions to the total energy
+   Nuclear repulsion energy                 :       0.00000000000000
+
+   Sum of all contributions to the energy
+   Total energy                             :    -172.14320390944044
+
+
+                                   Eigenvalues
+                                   -----------
+
+
+* Fermion symmetry E1 
+  * Closed shell, f = 1.0000
+  -5.6168738550706  ( 2)     -3.9333152584324  ( 2)     -3.1637351387618  ( 4)     -0.7091922229720  ( 4)     -0.6290814054840  ( 6)
+  -0.4678775009375  ( 2)     -0.2152257537643  ( 2)
+  * Virtual eigenvalues, f = 0.0000
+   0.0312356341195  ( 4)      0.0522855898090  ( 2)      0.1387942132189  ( 4)      0.1519595700442  ( 6)      0.1795290286520  ( 2)
+   0.2407346678869  ( 4)      0.3174818553425  ( 2)      0.4979174021550  ( 4)      0.5320295680117  ( 6)      0.9036711018884  ( 6)
+   0.9183478413648  ( 8)      0.9916271196351  ( 2)      1.1513977221460  ( 4)      1.2257997981841  ( 2)      1.6537179681693  ( 4)
+   1.7104592276488  ( 6)      2.3583803852703  ( 6)      2.3676516127006  ( 8)      4.4394064865260  ( 2)      5.0157085428322  ( 2)
+   5.1143287558593  ( 4)      5.3319979013182  ( 4)      5.5305419702863  ( 6)     17.5541653118398  ( 2)     19.8587800335164  ( 4)
+  29.0956962988101  ( 2)     40.7943307857275  ( 4)     41.4659913197740  ( 6)    102.8372798413419  ( 2)    107.6276596707238  ( 4)
+ 478.4023243636152  ( 2)
+* HOMO - LUMO gap:
+
+    E(LUMO) :     0.03123563 au (symmetry E1 )
+  - E(HOMO) :    -0.21522575 au (symmetry E1 )
+  ------------------------------------------
+    gap     :     0.24646139 au
+
+
+*****************************************************
+********** E N D   of   D I R A C  output  **********
+*****************************************************
+
+
+ 
+
+>>>> Node 0, utime: 1, stime: 0, minflt: 6898, majflt: 0, nvcsw: 13, nivcsw: 95, maxrss: 26120192
+>>>> Total WALL time used in DIRAC: 2s
+  
+  Dynamical Memory Usage Summary
+  
+  Mean allocation size (Mb) :       163.67
+  
+  Largest           9  allocations
+  
+      488.28 Mb at subroutine unknown                                    for WORK in PSIDHF                            
+      488.28 Mb at subroutine unknown                                    for WORK in PAMSET                            
+      488.28 Mb at subroutine unknown                                    for test allocation of work array in DIRAC mai
+        7.63 Mb at subroutine unknown                                    for WORK in READIN                            
+        0.76 Mb at subroutine unknown                                    for PAMINP WORK array                         
+        0.06 Mb at subroutine unknown                                    for buf in butobs                             
+        0.06 Mb at subroutine unknown                                    for unnamed variable                          
+        0.03 Mb at subroutine unknown                                    for unnamed variable                          
+        0.03 Mb at subroutine unknown                                    for unnamed variable                          
+  
+  Peak memory usage    (Mb) :       488.00
+       reached at subroutine : unknown                                   
+              for variable   : unnamed variable                          
+  
+ MEMGET high-water mark:     0.00 MB
+
+*****************************************************
