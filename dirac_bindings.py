@@ -8,11 +8,12 @@ class MakeGetEnergyFunc:
     def __init__(self,get_energy):
         """get_energy -- callable that takes string and returns total energy if string contains it and nothing otherwise"""
         self.get_energy=get_energy
-    def __call__(self,out_stream):
-        for line in out_stream:
-           res =  self.get_energy(line)
-           if res is not None: 
-              return res
+    def __call__(self,out_file):
+        with open(out_file,'r') as out_stream:
+            for line in out_stream:
+                res =  self.get_energy(line)
+                if res is not None: 
+                    return res
             #Error 
         if res is None:
            raise NotEnergy
@@ -57,10 +58,11 @@ def dirac_en(str):
         tmp = str.split(':')
         return float(tmp[1])
 
-def transform_input_diatomic(in_stream,dist):
+def transform_input_diatomic(in_file,true_in_file,dist):
     import re
-    with open('in.mol','w') as mol:
-       for line in in_stream:
-           mol.write(re.sub(r'!dist!',str(dist),line)) #stream must contain !dist! in place of some coordinate (z for example) of some atom
-    return '--mol=in.mol'
+    with open(in_file,'r') as in_stream:
+        with open(true_in_file,'w') as out_stream:
+            for line in in_stream:
+                out_stream.write(re.sub(r'!dist!',str(dist),line)) #stream must contain !dist! in place of some coordinate (z for example) of some atom
+    return '--mol="{}"'.format(true_in_file)
 
