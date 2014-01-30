@@ -1,5 +1,5 @@
 DIRAC pam run in /Users/jeral/source/optimiste/optimiste/dirac_test
-DIRAC serial starts by allocating 64000000 words (488 MB) of memory
+DIRAC serial starts by allocating 700000000 words (5340 MB) of memory
 DIRAC serial has no limitations in place for the amount of dynamically allocated memory
 
 Note: maximum allocatable memory for serial run can be set by pam --aw
@@ -222,10 +222,10 @@ Contents of the input file
 Contents of the molecule file
 -----------------------------
 
-Pb atom                                                                                             
+PbF4 molecule                                                                                       
                                                                                                     
                                                                                                     
-C   2   2  X  Y                                                                                     
+C   2                                                                                               
        82.    1                                                                                     
 Pb 0.0 0.0 0.0                                                                                      
 LARGE    5    4    4    2    1    1                                                                 
@@ -435,8 +435,11 @@ f  10    1    0
   0.4299969837017894      -0.1642582865583354      -0.1751762405808905                              
   0.2450271779816300       0.5718305468046342E-003  0.1351799224050007E-002                         
 ECPLIB GRECPm                                                                                       
-        8.    1                                                                                     
-O     0.00000000           0.00000000       2.0                                                     
+        9.    4                                                                                     
+F     0.00000000           0.00000000        2.0                                                    
+F     1.63299316186      -0.942809040639        -0.666666666666                                     
+F     -1.63299316186      -0.942809040639        -0.666666666666                                    
+F     0.00000000     1.88561808128        -0.66666666666                                            
 LARGE    4    1    1    1    1                                                                      
 $ S-TYPE FUNCTIONS                                                                                  
 f  14    7    0                                                                                     
@@ -538,7 +541,7 @@ Basis "GRECPm" doesn't exist
 
   --- SEVERE ERROR, PROGRAM WILL BE ABORTED ---                       
 
- Date and time (Darwin) : Mon Dec 16 03:43:25 2013
+ Date and time (Darwin) : Thu Jan 30 17:49:55 2014
  Non-existing ECP
 
 
@@ -561,18 +564,18 @@ Basis "GRECPm" doesn't exist
 Program received signal SIGILL: Illegal instruction.
 
 Backtrace for this error:
-#0  0x11417870d
-#1  0x114178c1b
-#2  0x7fff972775a9
-#3  0x10a3654a4
-#4  0x10af1627a
-#5  0x10a8fa22b
-#6  0x10a8faae6
-#7  0x10aa9baf2
-#8  0x10aaaa7d4
-#9  0x10aaace23
-#10  0x10aad78d0
-#11  0x10a63d352
-#12  0x10ab4c268
-#13  0x10a3222dd
-#14  0x10b4046fe
+#0  0x10cf3570d
+#1  0x10cf35c1b
+#2  0x7fff951475a9
+#3  0x10311e4a4
+#4  0x103ccf27a
+#5  0x1036b322b
+#6  0x1036b3ae6
+#7  0x103854af2
+#8  0x1038637d4
+#9  0x103865e23
+#10  0x1038908d0
+#11  0x1033f6352
+#12  0x103905268
+#13  0x1030db2dd
+#14  0x1041bd6fe
