@@ -15,7 +15,7 @@ class PointsTooNear(Exception):
 
 def quadr_optimize(func,x0vec, eps=1e-5, maxiter = 40):
     """ quadr_optimize takes callable func(x), that takes one float value and return float value,
-and set of 3 initial points x0vec and returns value of the minimum, 
+and set of 3 initial points x0vec and returns position of the minimum of func, 
 
 optional parameters:
 eps -- absolute accuracy to achieve
@@ -51,4 +51,4 @@ maxiter -- maximum iterations count"""
         curiter+=1
 
     return xmin # FIXME with maxiter account 
-
+    

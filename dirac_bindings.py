@@ -63,6 +63,24 @@ def transform_input_diatomic(in_file,true_in_file,dist):
     with open(in_file,'r') as in_stream:
         with open(true_in_file,'w') as out_stream:
             for line in in_stream:
-                out_stream.write(re.sub(r'!dist!',str(dist),line)) #stream must contain !dist! in place of some coordinate (z for example) of some atom
+               out_stream.write(re.sub(r'!dist!',str(dist),line)) #stream must contain !dist! in place of some coordinate (z for example) of some atom
     return '--mol="{}"'.format(true_in_file)
 
+def transform_input_eval(in_file,true_in_file,d):
+""" transforms input in the following way:
+    All strings remains unchanged except those, that contain !...! substring. The ... is some python code. In this
+    code all builtin python functions as well  math module function sqrt and argument d can be accessed. The substring !...! is replaced with result of this code. 
+    Example:
+    The string !d*0.1! with value of the d argument equal to float number 2 will be replaced to the 0.2
+"""
+    import re
+    import math
+    def replace_func(matchObj,d=d): #d=d is magic for eval and re.sub combination
+        return str(eval(matchObj.group(1),globals(),{'sqrt':math.sqrt,'d':d}))
+    evalp = re.compile(r'!([^!]+)!') #eval_pattern
+    with open(in_file,'r') as in_stream:
+        with open(true_in_file,'w') as out_stream:
+            for line in in_stream:
+               out_line = re.sub(evalp,replace_func,line)
+               out_stream.write(out_line)
+    return '--mol="{}"'.format(true_in_file)
