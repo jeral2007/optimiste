@@ -1,7 +1,7 @@
 import sys
 
 def del_kinds(atoms):
-    return [ at[:3]+[''.join(c for c in at[3] if not c.isdigit())
+    return [ at[:3]+[''.join(c for c in at[3] if not c.isdigit())]
                      for at in atoms]
 
 def write_coord(atoms):

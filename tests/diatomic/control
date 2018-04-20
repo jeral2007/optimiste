@@ -1,0 +1,115 @@
+$title
+$symmetry c1
+$coord    file=coord
+$atoms
+y  1                                                                           \
+   basis =y az                                                                 \
+   ecp   =y gatchina_11e
+he 2                                                                           \
+   basis =none                                                                 \
+   ecp   =he gaus1
+$pople   AO
+$basis    file=basis
+$ecp    file=basis
+$rundimensions
+   dim(fock,dens)=3856
+   natoms=2
+   nshell=23
+   nbf(CAO)=85
+   nbf(AO)=73
+   dim(trafo[SAO<-->AO/CAO])=109
+   rhfshells=2
+$scfiterlimit       99
+$scfconv        7
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=1.500  step=0.050  min=0.100
+$scfdump
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis   start=0.5
+$scforbitalshift  automatic=0.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-10
+   maxiter=25
+$optimize
+   internal   on
+   cartesian  off
+   global     off
+   basis      off   logarithm
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.1
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$lock off
+$uhf
+$uhfmo_alpha    file=alpha
+$uhfmo_beta    file=beta
+$uhfmo_real    file=realmos
+$uhfmo_imag    file=imagmos
+$natural orbitals    file=natorb
+$alpha shells
+ a       1-6                                    ( 1 )
+$beta shells
+ a       1-4,6                                  ( 1 )
+$twocomp shells
+ a    1-  11    (  1  )
+$twocomp-ecp
+$dft-section
+$dft-functional pbe0
+$dft-gridtype cvw-3
+$last step     grad
+$energy      SCF               SCFKIN            SCFPOT
+   1   -31.72598182844     0.00000000000     0.00000000000
+   2   -31.72598873808     0.00000000000     0.00000000000
+   3   -33.29758316079     0.00000000000     0.00000000000
+   4   -27.16677595136     0.00000000000     0.00000000000
+   5   -45.78815213043     0.00000000000     0.00000000000
+   6   -45.78815218688     0.00000000000     0.00000000000
+   7   -45.78606846491     0.00000000000     0.00000000000
+   8   -45.78817297943     0.00000000000     0.00000000000
+   9   -43.50923026442     0.00000000000     0.00000000000
+  10   -43.50923031041     0.00000000000     0.00000000000
+  11   -41.10621207683     0.00000000000     0.00000000000
+  12   -39.58091892811     0.00000000000     0.00000000000
+  13   -39.57213761112     0.00000000000     0.00000000000
+  14   -41.38400781131     0.00000000000     0.00000000000
+  15   -41.38814100514     0.00000000000     0.00000000000
+  16   -38.85398028392     0.00000000000     0.00000000000
+  17   -41.10616707451     0.00000000000     0.00000000000
+  18   -41.10616754704     0.00000000000     0.00000000000
+  19   -41.10616756675     0.00000000000     0.00000000000
+  20   -41.10616758310     0.00000000000     0.00000000000
+  21   -42.22083844736     0.00000000000     0.00000000000
+  22   -42.22083847003     0.00000000000     0.00000000000
+  23   -42.22089731991     0.00000000000     0.00000000000
+$last SCF energy change = -.58849884E-04
+$grad          cartesian gradients
+  cycle =  17    SCF energy =    -41.1061670745   |dE/dxyz| =  1.052608
+    0.00000000000000      0.00000000000000      0.00000000000000      y
+    4.00000000000000      0.00000000000000      0.00000000000000      he
+  -.74430622350560D+00  -.91961412681952D-07  0.14336464676420D-05
+  0.74430622350560D+00  0.91961412761125D-07  -.14336464676510D-05
+  cycle =  22    SCF energy =    -42.2208384700   |dE/dxyz| =  1.474288
+    0.00000000000000      0.00000000000000      0.00000000000000      y
+    4.00000000000000      0.00000000000000      0.00000000000000      he
+  -.10424787728916D+01  -.34647694948285D-06  -.46486030244825D-06
+  0.10424787728915D+01  0.34647694947354D-06  0.46486030245339D-06
+  cycle =  23    SCF energy =    -42.2208973199   |dE/dxyz| =  1.474270
+    0.00000000000000      0.00000000000000      0.00000000000000      y
+    4.00000000000000      0.00000000000000      0.00000000000000      he
+  -.10424660290603D+01  -.34348251588582D-06  -.52514541283465D-06
+  0.10424660290603D+01  0.34348251566517D-06  0.52514541283766D-06
+$end

@@ -3,7 +3,7 @@ import sys
 coord_pat_filename = sys.argv[1]
 control_filename = sys.argv[2]
 excls = []
-if len(sys.argv>3):
+if len(sys.argv)>3:
     excls = [el.lower() for el in sys.argv[3:]]
 def read_control(filename, atoms):
     f = open(filename)
@@ -27,7 +27,7 @@ def read_control(filename, atoms):
             grads += [[float(g) for g in aux]]
 
 ats, qs, dqs, dq_kinds = read_coord_pat(coord_pat_filename)
-grads, en = read_control('control', del_kinds(ats))
+grads, en = read_control(control_filename, del_kinds(ats))
 dgs = delta_grad(ats, qs, dqs)
 de = delta_energy(ats, qs, dqs)
 
@@ -39,7 +39,7 @@ for at, g, dg in zip(ats, grads, dgs):
         continue
     aux = [gx + dgx for gx,dgx in zip(g, dg)]
     g2_tot += sum( x**2 for x in aux)
-    print "{} {} {} {}".format(*aux, at[3])
+    print "{0[0]} {0[1]} {0[2]} {1}".format(aux, at[3])
 print '-'*10
 
 print '|grad| = {}'.format(g2_tot**0.5)
