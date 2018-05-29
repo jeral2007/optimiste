@@ -1,6 +1,7 @@
 import sys
 from turboutils import read_coord
 
+
 def intervals(arr):
     if len(arr) == 0:
         return []
@@ -154,22 +155,31 @@ print "SIGMA: {}".format(sigma)
 ats = read_coord(sys.argv[3])
 print "===="*10
 print "$coord"
+new_inds = []
+cur_new_ind = 0
 
-not_first_occ = []
-for ind, at in enumerate(ats):
-    if charges[ind][0].lower() != at[-1].lower():
-        raise ValueError("Atom no. {} in charge is {} \
+for c_num, (av, c) in enumerate(res):
+    first_occ = True
+    new_inds += [[]]
+    for ind in c:
+        new_inds[-1] += [cur_new_ind]
+        cur_new_ind += 1
+        at = ats[ind]
+        if charges[ind][0].lower() != at[-1].lower():
+            raise ValueError("Atom no. {} in charge is {}\
 while in coord this atom is {}".format(ind,
                                        charges[ind][0].lower(), at[-1].lower()))
-    clust_no = [ind in c for avv, c in res].index(True)
-    if clust_no not in not_first_occ:
-        print "{} {} {} {}{c_no:} {av:.5f}".format(*at, c_no=clust_no,
-                                                     av=res[clust_no][0])
-        not_first_occ += [clust_no]
-    else:
-        print "{} {} {} {}{c_no}".format(*at, c_no=clust_no)
+        if first_occ:
+            print "{} {} {} {}{c_no}  0 {av:.5f}".format(*at, c_no=c_num,
+                                                         av=res[c_num][0])
+            first_occ = False
+        else:
+            print "{} {} {} {}{c_no}".format(*at, c_no=c_num)
+
 print "$end"
 print "=="*10
 print "CLUSTER NUMBERS for control file"
 for n, (av, c) in enumerate(res):
-    print "{}{} {}".format(charges[c[0]][0], n, intervals([i+1 for i in c]))
+    print "{}{} {}".format(charges[c[0]][0], n, intervals([i+1
+                                                           for i
+                                                           in new_inds[n]]))
