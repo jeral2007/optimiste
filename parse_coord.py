@@ -106,21 +106,16 @@ def write_basis(basis_pat, dq_vs_name, eps=1e-8):
                 -dq_vs_name[atom_name], eps))
 
 
-def main():
-    res = read_coord_pat(sys.argv[1])
+def make_coord_bas(coord_pat, basis_pat):
+    res = read_coord_pat(coord_pat)
     atoms=res[0]
     print res[-1]
 
     print "delta_e = {}".format(delta_energy(*res[:-1]))
 
-    print '-'*10
-    for at, g in zip(atoms, delta_grad(*res[:-1])):
-        print " ".join(str(ga) for ga in g)
-
-
-    write_basis(sys.argv[2], res[-1])
+    write_basis(basis_pat, res[-1])
     write_coord(atoms)
 
 if __name__=='__main__':
-    main()
+    make_coord_bas(sys.argv[1], sys.argv[2])
 
