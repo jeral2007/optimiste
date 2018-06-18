@@ -29,7 +29,12 @@ def read_control(filename, atoms):
             aux = line.replace('D', 'e').replace('d', 'e').split()[0:3]
             grads += [[float(g) for g in aux]]
         first_step=False
-def take_grads(coord_pat_filename, control_filename, excls):
+
+
+def print_grads(aux, at):
+    print "{0[0]} {0[1]} {0[2]} {1} {2}".format(aux, sum(c**2 for c in aux[:3])**0.5, at[3])
+    
+def take_grads(coord_pat_filename, control_filename, excls, callback=print_grads):
     ats, qs, dqs, dq_kinds = read_coord_pat(coord_pat_filename)
     grads, en = read_control(control_filename, del_kinds(ats))
     dgs = delta_grad(ats, qs, dqs)
@@ -42,8 +47,8 @@ def take_grads(coord_pat_filename, control_filename, excls):
         if at[3].lower() in excls:
             continue
         aux = [gx + dgx for gx,dgx in zip(g, dg)]
+        callback(aux, at)
         g2_tot += sum( x**2 for x in aux)
-        print "{0[0]} {0[1]} {0[2]} {1} {2}".format(aux, sum(c**2 for c in aux[:3])**0.5, at[3])
     print '-'*10
     
     print '|grad| = {}'.format(g2_tot**0.5)

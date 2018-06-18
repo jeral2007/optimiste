@@ -83,7 +83,7 @@ def one_iter(turbo_command=turbo_command, relax_command=relax_command):
 def restore_fixed(coord_pat=coord_pat, coord=coord, coord_old=coord_old,  excls = excls, damping=damping):
     f_pat = open(coord_pat, 'r')
     f_coord = open(coord, 'r')
-    f_old = open(coord_old)
+    f_old = open(coord_old, 'r')
  
     header_pat = f_pat.next()
     header_coord = f_coord.next()
