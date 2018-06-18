@@ -12,6 +12,18 @@ def write_coord(atoms):
     f.write('$end\n')
 
 
+def read_coord_pat_min(filename):
+    f = open(filename)
+    first_line = f.next()
+    assert('$coord' in first_line)
+    coords, kinds = [], [] 
+    for line in f:
+        if '$end' in line:
+           return coords, kinds
+        aux = line.split()
+        coords += [map(float, aux[:3])]
+        kinds +=  [aux[3]]
+    
 def read_coord_pat(filename):
     f = open(filename, 'r')
     first_line = f.next()
