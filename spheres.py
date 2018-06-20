@@ -38,8 +38,8 @@ def nth_sphere(n, ii, coords, eps=0.3, rules=rules_xenotime, dec=dec_xenotime):
     res = set()
     while len(queue_inds) > 0:
         cind, clev = queue_inds.pop(0), queue_levs.pop(0)
+        res.add(cind)
         if clev+dec(cind, coords) < 0:
-            res.add(cind)
             continue
         fsphere = fst_sphere(cind, coords, eps, rules)
         queue_levs += [clev+dec(cind, coords) for i1 in fsphere
@@ -47,7 +47,6 @@ def nth_sphere(n, ii, coords, eps=0.3, rules=rules_xenotime, dec=dec_xenotime):
                        and i1 not in res and i1 != cind]
         queue_inds += [i1 for i1 in fsphere if i1 not in queue_inds
                        and i1 not in res and i1 != cind]
-        res = res.union(fsphere)
     return res
 
 
@@ -64,7 +63,8 @@ def center_coords(ii, coords):
 
 coords_name, atom_num, sphere_n = (sys.argv[1], int(sys.argv[2]),
                                    int(sys.argv[3]))
-coords = center_coords(atom_num, read_coord(coords_name))
+coords = read_coord(coords_name)
 
 print_atoms(nth_sphere(sphere_n, atom_num, coords,
-                       rules=lambda *args: True, eps=1e-1), coords)
+                       rules=lambda *args: True, eps=1e-1,
+                       dec=dec_xenotime), coords)
