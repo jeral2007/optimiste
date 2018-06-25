@@ -1,5 +1,6 @@
 from parse_coord import read_coord_pat, delta_grad, delta_energy, del_kinds
 import sys
+from scipy import float64
 def read_control(filename, atoms):
     f = open(filename)
     for line in f:
@@ -19,7 +20,7 @@ def read_control(filename, atoms):
         if 'maximum norm' in line:
             f.close()
             return grads, en
-        en = float(line.split('=')[2].split()[0])
+        en = float64(line.split('=')[2].split()[0])
         for at, line in zip(atoms, f):
            pass
   #        if at[3] != line.split()[3]:
@@ -27,7 +28,7 @@ def read_control(filename, atoms):
         grads = []
         for at, line in zip(atoms, f):
             aux = line.replace('D', 'e').replace('d', 'e').split()[0:3]
-            grads += [[float(g) for g in aux]]
+            grads += [[float64(g) for g in aux]]
         first_step=False
 
 

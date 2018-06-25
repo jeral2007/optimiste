@@ -1,4 +1,6 @@
 from stat_proc import *
+import standard_config as sconf
+
 #config
 coord_pat = 'coord_pat'
 coord = 'coord'
@@ -77,14 +79,14 @@ for m, c in mclusters_pat:
     length, sigma = stat_cluster(c, bonds_pat)
     bk = set(b_kinds_pat[i] for i in c)
     for b in bk:
-        print "{} \t {:.5f} \t {:.5f}".format(b, length, (sigma+1e-8)**0.5)
+        print "{} \t {:.5f} \t {:.5f}".format(b, length*sconf.au2ang, sconf.au2ang*(sigma+1e-12)**0.5)
 
 print "Bond \t <l> \t sqrt(<sigma>)"
 for m, c in mclusters:
     length, sigma = stat_cluster(c, bonds)
     bk = set(b_kinds[i] for i in c)
     for b in bk:
-        print "{} \t {:.5f} \t {:.5f}".format(b, length, sigma**0.5)
+        print "{} \t {:.5f} \t {:.5f}".format(b, length*sconf.au2ang, sconf.au2ang*sigma**0.5)
 
 print '-'*20
 print "detailed"
