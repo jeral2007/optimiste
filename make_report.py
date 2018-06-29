@@ -7,8 +7,8 @@ coord = 'coord'
 control = 'control'
 excls = ['zz3', 'zz4']
 bonds_on = ['o10', 'o2']
-tol = 0.02
-neighbours_count=5
+tol = 0.05
+neighbours_count=8
 def read_coord_and_pat(coord=coord, coord_pat=coord_pat):
     f_coord = open(coord)
     f_pat = open(coord_pat)
@@ -96,4 +96,4 @@ for m, c in mclusters:
     print "cluster"
     print "-"*10
     for i in c:
-        print "{} {} {}".format(i,bonds[i], b_kinds[i])
+        print "{} {} {}".format(i,bonds[i]*sconf.au2ang, b_kinds[i])

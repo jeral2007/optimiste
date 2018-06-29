@@ -9,13 +9,15 @@ embedding = 'embedding'
 coord_pat = 'coord_pat'
 dscf_command = '/home/demidov/turbo/bin/amd64/part_dscf > out'
 grad_command = '/home/demidov/turbo/bin/amd64/part_grad > grad.out'
-at_masses = {'y'  : 88.90584, 'o2' :15.99903, 'o10':15.99903, 'o':15.9994, 
-             'zz3':  1.0e4  , 'zz4': 1.0e4,   'h'  : 1.00794, 'c':12.0116,
-             'at' :210.0    , 'p'  :30.97376 }
+at_masses = {'y'  : 88.90584, 'o2' :15.99903, 'o10': 15.99903, 'o' :15.9994, 
+             'zz3':  1.0e4  , 'zz4': 1.0e4,   'h'  :  1.00794, 'c' :12.0116,
+             'at' :210.0    , 'p'  :30.97376, 'th' :232.0377 , 'se':78.96,
+             'em1':285.0    , 'el1':289}
 
 at_numbers ={'y'  :39       , 'o2' :8       , 'o10': 8      , 'o':8      ,
              'zz3':39       , 'zz4':8       , 'h'  : 1      , 'c':6      ,
-             'at' :85       , 'p'  :15}
+             'at' :85       , 'p'  :15      , 'th' : 90    , 'se': 34, 
+             'em1':112      , 'el1':114}
  
 fmt_float = "{:.10f}"
 fmt_sci = "{:25.17e}"

@@ -1,5 +1,6 @@
 import sys
 from read_control import take_grads
+from turboutils import table
 import scipy as sc
 coord_pat = 'coord_pat'
 control = 'control'
@@ -10,6 +11,7 @@ coord_old='coord_old'
 excls = ['y', 'zz3', 'zz4']
 maxiter=40
 damping = 0.5
+tol=1e-5
 def del_num(s):
     return ''.join(c for c in s if c not in '0123456789')
 
@@ -71,7 +73,7 @@ def write_control(control=control, coord_pat=coord_pat, excls=excls):
     f_control.write(control_cont)
     f_control.close()
 
-def one_iter(turbo_command=turbo_command, relax_command=relax_command):
+def one_iter(turbo_command=turbo_command, relax_command=relax_command, maxiter_one_point=3):
     import subprocess as sp
     print "dscf + grad run"
     sp.call(turbo_command, shell=True)
@@ -79,7 +81,7 @@ def one_iter(turbo_command=turbo_command, relax_command=relax_command):
     save_coords()
     write_control()
     sp.call(relax_command, shell=True)
-
+   
 def restore_fixed(coord_pat=coord_pat, coord=coord, coord_old=coord_old,  excls = excls, damping=damping):
     f_pat = open(coord_pat, 'r')
     f_coord = open(coord, 'r')
@@ -135,5 +137,9 @@ save_coords()
 restore_fixed()
 for i in xrange(maxiter):
     one_iter()
-    print restore_fixed()
-    take_grads(coord_pat, control, excls)
+    displacements = restore_fixed()
+    d_str = ["{0[0]:.5f} \t {0[1]}".format(d) for d in displacements]
+    print table(d_str, 7, field_fmt="{},")
+    gg = take_grads(coord_pat, control, excls)
+    if gg<tol:
+       break
