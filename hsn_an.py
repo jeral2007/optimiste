@@ -4,12 +4,12 @@ from turboutils import coord_iterator, table
 import scipy.linalg as scl
 # config
 from standard_config import *
+from read_control import read_control
 hessian_file = 'HESS.DAT'+'.scipy'
 omega_file = 'OMEGA.DAT.scipy'
-excls = ['zz3', 'zz4']
+excls = ['zz8']
 gaus_file = "GAUSS"
 firefly_fname = 'gran.in'
-
 import stat_proc as stp
 # HESS.DAT format description:
 # N - number of coordinates (number of atoms * 3)
@@ -201,6 +201,24 @@ for ii1, ii2, omega in to_print:
    for jj in range(len(vectors[:,ii2])/3):
        f_gaus.write(("{:3d} {:3d} "+"{:.2f}  "*3+'\n').format(jj+1, at_numbers[labels[jj]],*vectors[jj:jj+3,ii2]))
    kk+=1
+
+atoms = labels[::3]
+grads, en = read_control(control, atoms)
+fs = sc.ravel(grads)
+drs = sc.dot(scl.inv(hessian), fs)
+print 'delta_coords'
+drs_formatted = drs.view()
+drs_formatted.shape= (len(drs)/3, 3)
+print drs_formatted
+delta_e = -sc.dot(drs, fs)
+print "dE = {:.4f} a.u.".format(delta_e)
+with open(delta_coord, 'w') as fout:
+    fout.write('$coord_delta\n')
+    for dr, at in zip(drs_formatted, atoms):
+        fout.write('{} {} {} {at}\n'.format(*dr, at=at))
+    fout.write('$end\n N={}\n'.format(len(drs)))
+    fout.write(('{} '*len(drs)).format(*drs))
+    fout.write('\n')
 #                   1                      2                      3
 "                   A                      A                      A"
 #Frequencies --    57.7280                75.0007                75.0254

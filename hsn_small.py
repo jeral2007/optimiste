@@ -6,7 +6,7 @@ from time import sleep
 from read_control import read_control
 from standard_config import *
 import subprocess as sp
-excls = 'zz3 zz4'.split()
+excls = 'zz6 zz7'.split()
 node_dir_prefix = 'node'
 srun_command = 'srun -N1 -n1'
 
